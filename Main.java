@@ -29,8 +29,7 @@ public class Main {
             }
             int length = i;
             buf.close();
-            for (i=0;i<length;i++)
-            System.out.print(ourText[i]);
+            for (i=0;i<length;i++) System.out.print(ourText[i]);
         } catch (IOException e){
             e.printStackTrace();
         }
